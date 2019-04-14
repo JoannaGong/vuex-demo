@@ -61,10 +61,10 @@ export default {
                 terms: this.terms
             }
             
-            axios.post("https://myapp-72ed0.firebaseio.com/user.json", formData)
+            axios.post("/user.json", formData)
             .then( res => {
                 console.log(res)
-            }, err => {
+            }, (err) => {
                 console.log(err)
             })
         },

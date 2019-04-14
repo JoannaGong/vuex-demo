@@ -8,7 +8,7 @@
 
 <script>
 // 辅助函数的使用（辅助函数不能直接进行双向数据绑定；辅助函数较麻烦，一般使用第三方库组件）
-import {mapMutations, mapActions} from 'vuex'
+import {mapActions} from 'vuex'
 
 export default {
     methods: {
